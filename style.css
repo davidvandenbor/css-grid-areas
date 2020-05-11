@@ -1,0 +1,42 @@
+/* Bepaal bij main of je areas of kantlijnen gaat gebruiken,
+en bewerk daarna de respektievelijke layout vlakken daaronder! */
+
+section {
+	padding: 30%;
+	transition: all 2s ease;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+	display: grid;
+	grid-gap: 10px;
+	color: white;
+	font-size: 1vw;
+	max-width: 1200px;
+	margin: 10px auto;
+	grid-template-areas:
+		"one two three"
+		"one two four";
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.orange {
+	background: orange;
+	grid-area: one;
+}
+
+.blue {
+	background: blue;
+	grid-area: two;
+}
+
+.red {
+	background: red;
+	grid-area: three;
+}
+
+.green {
+	background: green;
+	grid-area: four;
+}

@@ -15,7 +15,7 @@ main {
 	max-width: 1200px;
 	margin: 10px auto;
 
-	😍💜/* display:grid voor grid areas */
+	/* 😍💜 display:grid voor grid areas */
 	grid-template-areas:
 		"one two three"
 		"one two four";
